@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "camelize data structures recursive",
    "author" : [
       "Patrick Grämer <pgraemer@cpan.org>"
    ],
@@ -37,12 +37,16 @@
       },
       "runtime" : {
          "requires" : {
+            "String::CamelCase" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "Test::EOL" : "0",
+            "Test::Most" : "0",
+            "Test::Pod" : "0",
+            "Test::Pod::Coverage" : "1.04"
          }
       }
    },
