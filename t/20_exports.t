@@ -1,5 +1,6 @@
 use strict;
 use Test::More;
+use Test::Warnings;
 BEGIN {
     use_ok('Data::CamelCase', 'data_camelize', 'data_decamelize');
 }
