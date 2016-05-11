@@ -1,0 +1,4 @@
+name = "Data-CamelCase"
+badges = ["travis"]
+module_make = "ModuleBuildTiny"
+markdown_maker = "Pod::Markdown::Github"

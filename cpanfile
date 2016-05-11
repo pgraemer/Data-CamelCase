@@ -9,3 +9,7 @@ on test => sub {
     requires 'Test::Pod::Coverage', '1.04';
     requires 'Test::EOL';
 };
+
+on develop => sub {
+    requires 'Pod::Markdown::Github';
+}
