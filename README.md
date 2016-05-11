@@ -1,19 +1,18 @@
 [![Build Status](https://travis-ci.org/pgraemer/Data-CamelCase.svg?branch=master)](https://travis-ci.org/pgraemer/Data-CamelCase)
+
 # NAME
 
 Data::CamelCase - camelize data structures recursive
 
 # SYNOPSIS
 
-```perl
-use Data::CamelCase qw(data_camelize data_decamelize)
-my $camelized = data_camelize(%opts, { foo_bar => [qw(bar camel_case)]);
-# Result:
-# { FooBar => ['bar', 'CamelCase'] }
-my $decamelized = data_decamelize(%opts, $camelized);
-# Result:
-# { foo_bar => ['bar', 'camel_case'] }
-```
+    use Data::CamelCase qw(data_camelize data_decamelize)
+    my $camelized = data_camelize(%opts, { foo_bar => [qw(bar camel_case)]);
+    # Result:
+    # { FooBar => ['bar', 'CamelCase'] }
+    my $decamelized = data_decamelize(%opts, $camelized);
+    # Result:
+    # { foo_bar => ['bar', 'camel_case'] }
 
 # DESCRIPTION
 
@@ -35,11 +34,11 @@ options: keys\_only, vars\_only
 
 # AUTHOR
 
-Patrick Gr‰mer &lt;pgraemer@cpan.org>
+Patrick Gr√§mer &lt;pgraemer@cpan.org>
 
 # COPYRIGHT
 
-Copyright 2016- Patrick Gr‰mer
+Copyright 2016- Patrick Gr√§mer
 
 # LICENSE
 
