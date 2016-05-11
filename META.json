@@ -59,6 +59,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pgraemer/Data-CamelCase/issues"
+      },
+      "homepage" : "https://github.com/pgraemer/Data-CamelCase",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pgraemer/Data-CamelCase.git",
+         "web" : "https://github.com/pgraemer/Data-CamelCase"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

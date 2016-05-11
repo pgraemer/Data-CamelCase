@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/pgraemer/Data-CamelCase.svg?branch=master)](https://travis-ci.org/pgraemer/Data-CamelCase)
 # NAME
 
 Data::CamelCase - camelize data structures recursive
